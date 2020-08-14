@@ -1,0 +1,418 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.muradismayilov.easy_english"
+4    android:versionCode="17"
+5    android:versionName="6.6.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:6:5-79
+11-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:7:5-67
+12-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:8:5-76
+13-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:9:5-81
+14-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:10:5-80
+15-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:10:22-77
+16    <uses-permission android:name="com.android.vending.BILLING" />
+16-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:11:5-67
+16-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:25:5-68
+17-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:25:22-65
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+18-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:26:22-107
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->[com.google.firebase:firebase-iid:20.0.2] /home/murad/.gradle/caches/transforms-2/files-2.1/fdf35e2646cc7d6e6f0ccd9276867112/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+19-->[com.google.firebase:firebase-iid:20.0.2] /home/murad/.gradle/caches/transforms-2/files-2.1/fdf35e2646cc7d6e6f0ccd9276867112/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+20
+21    <application
+21-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:13:5-128:19
+22        android:name="com.muradismayilov.easy_english.tools.App"
+22-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:14:9-34
+23        android:allowBackup="true"
+23-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:15:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] /home/murad/.gradle/caches/transforms-2/files-2.1/d8e6145ebd5f6e1099b739484795a4bd/core-1.1.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:fullBackupContent="true"
+26-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:16:9-41
+27        android:icon="@mipmap/ic_launcher"
+27-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:17:9-43
+28        android:label="@string/app_name"
+28-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:18:9-41
+29        android:largeHeap="true"
+29-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:19:9-33
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:20:9-54
+31        android:supportsRtl="true"
+31-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:21:9-35
+32        android:theme="@style/AppTheme"
+32-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:22:9-40
+33        android:usesCleartextTraffic="true" >
+33-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:23:9-44
+34        <activity
+34-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:25:9-30:56
+35            android:name="com.muradismayilov.easy_english.activities.NoInternetDialogActivity"
+35-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:26:13-64
+36            android:label="@string/app_name"
+36-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:27:13-45
+37            android:screenOrientation="portrait"
+37-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:28:13-49
+38            android:theme="@style/AppTheme.Dialog" />
+38-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:29:13-51
+39        <activity
+39-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:31:9-36:56
+40            android:name="com.muradismayilov.easy_english.activities.UserActivity"
+40-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:32:13-52
+41            android:label="@string/app_name"
+41-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:33:13-45
+42            android:screenOrientation="portrait"
+42-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:34:13-49
+43            android:theme="@style/AppTheme" />
+43-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:35:13-44
+44        <activity
+44-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:37:9-42:56
+45            android:name="com.muradismayilov.easy_english.activities.TestPhraseActivity"
+45-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:38:13-58
+46            android:label="@string/app_name"
+46-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:39:13-45
+47            android:screenOrientation="portrait"
+47-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:40:13-49
+48            android:theme="@style/AppTheme" />
+48-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:41:13-44
+49        <activity
+49-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:43:9-48:56
+50            android:name="com.muradismayilov.easy_english.activities.TestWordActivity"
+50-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:44:13-56
+51            android:label="@string/app_name"
+51-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:45:13-45
+52            android:screenOrientation="portrait"
+52-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:46:13-49
+53            android:theme="@style/AppTheme" />
+53-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:47:13-44
+54        <activity
+54-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:49:9-54:56
+55            android:name="com.muradismayilov.easy_english.activities.TestSignUpActivity"
+55-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:50:13-58
+56            android:label="@string/app_name"
+56-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:51:13-45
+57            android:screenOrientation="portrait"
+57-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:52:13-49
+58            android:theme="@style/AppTheme" />
+58-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:53:13-44
+59        <activity
+59-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:55:9-60:56
+60            android:name="com.muradismayilov.easy_english.activities.TestLogInActivity"
+60-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:56:13-57
+61            android:label="@string/app_name"
+61-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:57:13-45
+62            android:screenOrientation="portrait"
+62-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:58:13-49
+63            android:theme="@style/AppTheme" />
+63-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:59:13-44
+64        <activity
+64-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:61:9-66:56
+65            android:name="com.muradismayilov.easy_english.activities.AboutUsActivity"
+65-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:62:13-55
+66            android:label="@string/app_name"
+66-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:63:13-45
+67            android:screenOrientation="portrait"
+67-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:64:13-49
+68            android:theme="@style/AppTheme" />
+68-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:65:13-44
+69        <activity
+69-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:67:9-72:56
+70            android:name="com.muradismayilov.easy_english.activities.MoreWordActivity"
+70-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:68:13-56
+71            android:label="@string/app_name"
+71-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:69:13-45
+72            android:screenOrientation="portrait"
+72-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:70:13-49
+73            android:theme="@style/AppTheme" />
+73-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:71:13-44
+74        <activity
+74-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:73:9-78:56
+75            android:name="com.muradismayilov.easy_english.activities.SuggestionActivity"
+75-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:74:13-58
+76            android:label="@string/app_name"
+76-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:75:13-45
+77            android:screenOrientation="portrait"
+77-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:76:13-49
+78            android:theme="@style/AppTheme" />
+78-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:77:13-44
+79        <activity
+79-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:79:9-84:56
+80            android:name="com.muradismayilov.easy_english.activities.LearnPhraseActivity"
+80-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:80:13-59
+81            android:label="@string/app_name"
+81-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:81:13-45
+82            android:screenOrientation="portrait"
+82-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:82:13-49
+83            android:theme="@style/AppTheme" />
+83-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:83:13-44
+84        <activity
+84-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:85:9-90:56
+85            android:name="com.muradismayilov.easy_english.activities.LearnWordActivity"
+85-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:86:13-57
+86            android:label="@string/app_name"
+86-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:87:13-45
+87            android:screenOrientation="portrait"
+87-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:88:13-49
+88            android:theme="@style/AppTheme" />
+88-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:89:13-44
+89        <activity
+89-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:91:9-96:56
+90            android:name="com.muradismayilov.easy_english.activities.PhraseActivity"
+90-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:92:13-54
+91            android:label="@string/app_name"
+91-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:93:13-45
+92            android:screenOrientation="portrait"
+92-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:94:13-49
+93            android:theme="@style/AppTheme" />
+93-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:95:13-44
+94        <activity
+94-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:97:9-102:56
+95            android:name="com.muradismayilov.easy_english.activities.WordActivity"
+95-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:98:13-52
+96            android:label="@string/app_name"
+96-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:99:13-45
+97            android:screenOrientation="portrait"
+97-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:100:13-49
+98            android:theme="@style/AppTheme" />
+98-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:101:13-44
+99        <activity
+99-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:103:9-108:56
+100            android:name="com.muradismayilov.easy_english.activities.HomeActivity"
+100-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:104:13-52
+101            android:label="@string/app_name"
+101-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:105:13-45
+102            android:screenOrientation="portrait"
+102-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:106:13-49
+103            android:theme="@style/AppTheme" />
+103-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:107:13-44
+104        <activity
+104-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:109:9-121:20
+105            android:name="com.muradismayilov.easy_english.activities.SplashActivity"
+105-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:110:13-54
+106            android:label="@string/app_name"
+106-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:111:13-45
+107            android:screenOrientation="portrait"
+107-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:112:13-49
+108            android:theme="@style/AppTheme" >
+108-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:113:13-44
+109            <intent-filter>
+109-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:115:13-120:29
+110                <action android:name="android.intent.action.VIEW" />
+110-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:116:17-69
+110-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:116:25-66
+111                <action android:name="android.intent.action.MAIN" />
+111-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:117:17-69
+111-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:117:25-66
+112
+113                <category android:name="android.intent.category.LAUNCHER" />
+113-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:119:17-77
+113-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:119:27-74
+114            </intent-filter>
+115        </activity>
+116
+117        <receiver android:name="com.muradismayilov.easy_english.receivers.InternetReceiver" />
+117-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:123:9-64
+117-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:123:19-61
+118
+119        <meta-data
+119-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:125:9-127:70
+120            android:name="com.google.android.gms.ads.APPLICATION_ID"
+120-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:126:13-69
+121            android:value="ca-app-pub-3531666375863646~7281381651" />
+121-->/home/murad/Downloads/RealAndroidStudioProjects/EasyEnglish/EasyEnglish/app/src/main/AndroidManifest.xml:127:13-67
+122
+123        <activity
+123-->[com.google.firebase:firebase-auth:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/14604c0a6af4167a1fbdfbf9ae7c8710/jetified-firebase-auth-19.3.0/AndroidManifest.xml:24:9-31:50
+124            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+124-->[com.google.firebase:firebase-auth:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/14604c0a6af4167a1fbdfbf9ae7c8710/jetified-firebase-auth-19.3.0/AndroidManifest.xml:25:13-85
+125            android:excludeFromRecents="true"
+125-->[com.google.firebase:firebase-auth:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/14604c0a6af4167a1fbdfbf9ae7c8710/jetified-firebase-auth-19.3.0/AndroidManifest.xml:26:13-46
+126            android:exported="true"
+126-->[com.google.firebase:firebase-auth:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/14604c0a6af4167a1fbdfbf9ae7c8710/jetified-firebase-auth-19.3.0/AndroidManifest.xml:27:13-36
+127            android:launchMode="singleTask"
+127-->[com.google.firebase:firebase-auth:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/14604c0a6af4167a1fbdfbf9ae7c8710/jetified-firebase-auth-19.3.0/AndroidManifest.xml:28:13-44
+128            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+128-->[com.google.firebase:firebase-auth:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/14604c0a6af4167a1fbdfbf9ae7c8710/jetified-firebase-auth-19.3.0/AndroidManifest.xml:29:13-102
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+129-->[com.google.firebase:firebase-auth:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/14604c0a6af4167a1fbdfbf9ae7c8710/jetified-firebase-auth-19.3.0/AndroidManifest.xml:30:13-72
+130
+131        <service
+131-->[com.google.firebase:firebase-auth:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/14604c0a6af4167a1fbdfbf9ae7c8710/jetified-firebase-auth-19.3.0/AndroidManifest.xml:33:9-39:19
+132            android:name="com.google.firebase.components.ComponentDiscoveryService"
+132-->[com.google.firebase:firebase-auth:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/14604c0a6af4167a1fbdfbf9ae7c8710/jetified-firebase-auth-19.3.0/AndroidManifest.xml:34:13-84
+133            android:directBootAware="true"
+133-->[com.google.firebase:firebase-common:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/89e8c50f4adcfa71f0d90282494b2c06/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+134            android:exported="false" >
+134-->[com.google.firebase:firebase-auth:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/14604c0a6af4167a1fbdfbf9ae7c8710/jetified-firebase-auth-19.3.0/AndroidManifest.xml:35:13-37
+135            <meta-data
+135-->[com.google.firebase:firebase-auth:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/14604c0a6af4167a1fbdfbf9ae7c8710/jetified-firebase-auth-19.3.0/AndroidManifest.xml:36:13-38:85
+136                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+136-->[com.google.firebase:firebase-auth:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/14604c0a6af4167a1fbdfbf9ae7c8710/jetified-firebase-auth-19.3.0/AndroidManifest.xml:37:17-109
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[com.google.firebase:firebase-auth:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/14604c0a6af4167a1fbdfbf9ae7c8710/jetified-firebase-auth-19.3.0/AndroidManifest.xml:38:17-82
+138            <meta-data
+138-->[com.google.firebase:firebase-database:19.2.1] /home/murad/.gradle/caches/transforms-2/files-2.1/468b182d948a813c175d023b96c3e587/jetified-firebase-database-19.2.1/AndroidManifest.xml:32:13-34:85
+139                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+139-->[com.google.firebase:firebase-database:19.2.1] /home/murad/.gradle/caches/transforms-2/files-2.1/468b182d948a813c175d023b96c3e587/jetified-firebase-database-19.2.1/AndroidManifest.xml:33:17-109
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[com.google.firebase:firebase-database:19.2.1] /home/murad/.gradle/caches/transforms-2/files-2.1/468b182d948a813c175d023b96c3e587/jetified-firebase-database-19.2.1/AndroidManifest.xml:34:17-82
+141            <meta-data
+141-->[com.google.android.gms:play-services-measurement-api:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/f4b3be98494fec3d1d6c6852c8ae0786/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:30:13-32:85
+142                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+142-->[com.google.android.gms:play-services-measurement-api:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/f4b3be98494fec3d1d6c6852c8ae0786/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:31:17-139
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.android.gms:play-services-measurement-api:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/f4b3be98494fec3d1d6c6852c8ae0786/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:32:17-82
+144            <meta-data
+144-->[com.google.firebase:firebase-iid:20.0.2] /home/murad/.gradle/caches/transforms-2/files-2.1/fdf35e2646cc7d6e6f0ccd9276867112/jetified-firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+145                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+145-->[com.google.firebase:firebase-iid:20.0.2] /home/murad/.gradle/caches/transforms-2/files-2.1/fdf35e2646cc7d6e6f0ccd9276867112/jetified-firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-iid:20.0.2] /home/murad/.gradle/caches/transforms-2/files-2.1/fdf35e2646cc7d6e6f0ccd9276867112/jetified-firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+147        </service>
+148
+149        <meta-data
+149-->[com.android.billingclient:billing:2.2.0] /home/murad/.gradle/caches/transforms-2/files-2.1/6051bee40914b3407d77b073a6021ae3/jetified-billing-2.2.0/AndroidManifest.xml:13:9-15:37
+150            android:name="com.google.android.play.billingclient.version"
+150-->[com.android.billingclient:billing:2.2.0] /home/murad/.gradle/caches/transforms-2/files-2.1/6051bee40914b3407d77b073a6021ae3/jetified-billing-2.2.0/AndroidManifest.xml:14:13-73
+151            android:value="2.2.0" />
+151-->[com.android.billingclient:billing:2.2.0] /home/murad/.gradle/caches/transforms-2/files-2.1/6051bee40914b3407d77b073a6021ae3/jetified-billing-2.2.0/AndroidManifest.xml:15:13-34
+152
+153        <activity
+153-->[com.android.billingclient:billing:2.2.0] /home/murad/.gradle/caches/transforms-2/files-2.1/6051bee40914b3407d77b073a6021ae3/jetified-billing-2.2.0/AndroidManifest.xml:17:9-20:75
+154            android:name="com.android.billingclient.api.ProxyBillingActivity"
+154-->[com.android.billingclient:billing:2.2.0] /home/murad/.gradle/caches/transforms-2/files-2.1/6051bee40914b3407d77b073a6021ae3/jetified-billing-2.2.0/AndroidManifest.xml:18:13-78
+155            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+155-->[com.android.billingclient:billing:2.2.0] /home/murad/.gradle/caches/transforms-2/files-2.1/6051bee40914b3407d77b073a6021ae3/jetified-billing-2.2.0/AndroidManifest.xml:19:13-96
+156            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+156-->[com.android.billingclient:billing:2.2.0] /home/murad/.gradle/caches/transforms-2/files-2.1/6051bee40914b3407d77b073a6021ae3/jetified-billing-2.2.0/AndroidManifest.xml:20:13-72
+157
+158        <receiver
+158-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:29:9-33:20
+159            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+159-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:30:13-85
+160            android:enabled="true"
+160-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:31:13-35
+161            android:exported="false" >
+161-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:32:13-37
+162        </receiver>
+163        <receiver
+163-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:34:9-42:20
+164            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+164-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:35:13-100
+165            android:enabled="true"
+165-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:36:13-35
+166            android:exported="true"
+166-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:37:13-36
+167            android:permission="android.permission.INSTALL_PACKAGES" >
+167-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:38:13-69
+168            <intent-filter>
+168-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:39:13-41:29
+169                <action android:name="com.android.vending.INSTALL_REFERRER" />
+169-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:40:17-79
+169-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:40:25-76
+170            </intent-filter>
+171        </receiver>
+172
+173        <service
+173-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:44:9-47:40
+174            android:name="com.google.android.gms.measurement.AppMeasurementService"
+174-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:45:13-84
+175            android:enabled="true"
+175-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:46:13-35
+176            android:exported="false" />
+176-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:47:13-37
+177        <service
+177-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:48:9-52:72
+178            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+178-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:49:13-87
+179            android:enabled="true"
+179-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:50:13-35
+180            android:exported="false"
+180-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:51:13-37
+181            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+181-->[com.google.android.gms:play-services-measurement:17.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/b2ee24cafb186b9bb5ab40319c6d2908/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:52:13-69
+182        <activity
+182-->[com.google.android.gms:play-services-ads-lite:19.0.1] /home/murad/.gradle/caches/transforms-2/files-2.1/1401c9187de5af00564a6fde4bee4663/jetified-play-services-ads-lite-19.0.1/AndroidManifest.xml:29:9-33:64
+183            android:name="com.google.android.gms.ads.AdActivity"
+183-->[com.google.android.gms:play-services-ads-lite:19.0.1] /home/murad/.gradle/caches/transforms-2/files-2.1/1401c9187de5af00564a6fde4bee4663/jetified-play-services-ads-lite-19.0.1/AndroidManifest.xml:30:13-65
+184            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+184-->[com.google.android.gms:play-services-ads-lite:19.0.1] /home/murad/.gradle/caches/transforms-2/files-2.1/1401c9187de5af00564a6fde4bee4663/jetified-play-services-ads-lite-19.0.1/AndroidManifest.xml:31:13-122
+185            android:exported="false"
+185-->[com.google.android.gms:play-services-ads-lite:19.0.1] /home/murad/.gradle/caches/transforms-2/files-2.1/1401c9187de5af00564a6fde4bee4663/jetified-play-services-ads-lite-19.0.1/AndroidManifest.xml:32:13-37
+186            android:theme="@android:style/Theme.Translucent" />
+186-->[com.google.android.gms:play-services-ads-lite:19.0.1] /home/murad/.gradle/caches/transforms-2/files-2.1/1401c9187de5af00564a6fde4bee4663/jetified-play-services-ads-lite-19.0.1/AndroidManifest.xml:33:13-61
+187
+188        <provider
+188-->[com.google.android.gms:play-services-ads-lite:19.0.1] /home/murad/.gradle/caches/transforms-2/files-2.1/1401c9187de5af00564a6fde4bee4663/jetified-play-services-ads-lite-19.0.1/AndroidManifest.xml:35:9-39:39
+189            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+189-->[com.google.android.gms:play-services-ads-lite:19.0.1] /home/murad/.gradle/caches/transforms-2/files-2.1/1401c9187de5af00564a6fde4bee4663/jetified-play-services-ads-lite-19.0.1/AndroidManifest.xml:36:13-76
+190            android:authorities="com.muradismayilov.easy_english.mobileadsinitprovider"
+190-->[com.google.android.gms:play-services-ads-lite:19.0.1] /home/murad/.gradle/caches/transforms-2/files-2.1/1401c9187de5af00564a6fde4bee4663/jetified-play-services-ads-lite-19.0.1/AndroidManifest.xml:37:13-73
+191            android:exported="false"
+191-->[com.google.android.gms:play-services-ads-lite:19.0.1] /home/murad/.gradle/caches/transforms-2/files-2.1/1401c9187de5af00564a6fde4bee4663/jetified-play-services-ads-lite-19.0.1/AndroidManifest.xml:38:13-37
+192            android:initOrder="100" />
+192-->[com.google.android.gms:play-services-ads-lite:19.0.1] /home/murad/.gradle/caches/transforms-2/files-2.1/1401c9187de5af00564a6fde4bee4663/jetified-play-services-ads-lite-19.0.1/AndroidManifest.xml:39:13-36
+193
+194        <receiver
+194-->[com.google.firebase:firebase-iid:20.0.2] /home/murad/.gradle/caches/transforms-2/files-2.1/fdf35e2646cc7d6e6f0ccd9276867112/jetified-firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+195            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+195-->[com.google.firebase:firebase-iid:20.0.2] /home/murad/.gradle/caches/transforms-2/files-2.1/fdf35e2646cc7d6e6f0ccd9276867112/jetified-firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+196            android:exported="true"
+196-->[com.google.firebase:firebase-iid:20.0.2] /home/murad/.gradle/caches/transforms-2/files-2.1/fdf35e2646cc7d6e6f0ccd9276867112/jetified-firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+197            android:permission="com.google.android.c2dm.permission.SEND" >
+197-->[com.google.firebase:firebase-iid:20.0.2] /home/murad/.gradle/caches/transforms-2/files-2.1/fdf35e2646cc7d6e6f0ccd9276867112/jetified-firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+198            <intent-filter>
+198-->[com.google.firebase:firebase-iid:20.0.2] /home/murad/.gradle/caches/transforms-2/files-2.1/fdf35e2646cc7d6e6f0ccd9276867112/jetified-firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+199                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+199-->[com.google.firebase:firebase-iid:20.0.2] /home/murad/.gradle/caches/transforms-2/files-2.1/fdf35e2646cc7d6e6f0ccd9276867112/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+199-->[com.google.firebase:firebase-iid:20.0.2] /home/murad/.gradle/caches/transforms-2/files-2.1/fdf35e2646cc7d6e6f0ccd9276867112/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+200            </intent-filter>
+201        </receiver>
+202
+203        <activity
+203-->[com.google.android.gms:play-services-base:17.1.0] /home/murad/.gradle/caches/transforms-2/files-2.1/8d306c96d5671c46c09e41df093ec68f/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+204            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+204-->[com.google.android.gms:play-services-base:17.1.0] /home/murad/.gradle/caches/transforms-2/files-2.1/8d306c96d5671c46c09e41df093ec68f/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+205            android:exported="false"
+205-->[com.google.android.gms:play-services-base:17.1.0] /home/murad/.gradle/caches/transforms-2/files-2.1/8d306c96d5671c46c09e41df093ec68f/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+206            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+206-->[com.google.android.gms:play-services-base:17.1.0] /home/murad/.gradle/caches/transforms-2/files-2.1/8d306c96d5671c46c09e41df093ec68f/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+207
+208        <provider
+208-->[com.google.firebase:firebase-common:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/89e8c50f4adcfa71f0d90282494b2c06/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+209            android:name="com.google.firebase.provider.FirebaseInitProvider"
+209-->[com.google.firebase:firebase-common:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/89e8c50f4adcfa71f0d90282494b2c06/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+210            android:authorities="com.muradismayilov.easy_english.firebaseinitprovider"
+210-->[com.google.firebase:firebase-common:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/89e8c50f4adcfa71f0d90282494b2c06/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+211            android:exported="false"
+211-->[com.google.firebase:firebase-common:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/89e8c50f4adcfa71f0d90282494b2c06/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+212            android:initOrder="100" />
+212-->[com.google.firebase:firebase-common:19.3.0] /home/murad/.gradle/caches/transforms-2/files-2.1/89e8c50f4adcfa71f0d90282494b2c06/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+213
+214        <meta-data
+214-->[com.google.android.gms:play-services-basement:17.0.0] /home/murad/.gradle/caches/transforms-2/files-2.1/f2c8b4624d1269ee053bd8db8444a9c2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+215            android:name="com.google.android.gms.version"
+215-->[com.google.android.gms:play-services-basement:17.0.0] /home/murad/.gradle/caches/transforms-2/files-2.1/f2c8b4624d1269ee053bd8db8444a9c2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+216            android:value="@integer/google_play_services_version" />
+216-->[com.google.android.gms:play-services-basement:17.0.0] /home/murad/.gradle/caches/transforms-2/files-2.1/f2c8b4624d1269ee053bd8db8444a9c2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+217    </application>
+218
+219</manifest>

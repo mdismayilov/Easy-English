@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    defaultConfig {
+        applicationId "com.muradismayilov.easy_english"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        android.defaultConfig.vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+dependencies {
+    // Default
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // AppCompat
+    implementation "androidx.appcompat:appcompat:$appcompat"
+    // ConstraintLayout
+    implementation "androidx.constraintlayout:constraintlayout:$constraintlayout"
+    // Google Ads
+    implementation "com.google.android.gms:play-services-ads:$googleAds"
+    // Firebase
+    implementation "com.google.firebase:firebase-core:$firebaseCoreVersion"
+    implementation "com.google.firebase:firebase-auth:$firebaseAuthVersion"
+    implementation "com.google.firebase:firebase-database:$firebaseDatabaseVersion"
+    // Test
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation "junit:junit:$junit"
+    androidTestImplementation "androidx.test.ext:junit:$junit2"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espresso"
+    // Butterknife
+    //noinspection AnnotationProcessorOnCompilePath
+    implementation "com.jakewharton:butterknife:$butterknife"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$butterknife"
+    // Glide
+    implementation "com.github.bumptech.glide:glide:$glide"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glide"
+    // CardView
+    implementation "androidx.cardview:cardview:$cardview"
+    // RecyclerView
+    implementation "androidx.recyclerview:recyclerview:$recyclerview"
+    // SwipeCards
+    implementation "com.lorentzos.swipecards:library:$swipecards"
+    // CircleImageView
+    implementation "de.hdodenhof:circleimageview:$circleimageview"
+    // Google Ads
+    implementation "com.google.android.gms:play-services-ads:$googleads"
+    // Material
+    implementation "com.google.android.material:material:$material"
+    // MultiDex for Material
+    implementation 'com.android.support:multidex:1.0.3'
+    // Billing
+    implementation "com.android.billingclient:billing:$billing"
+}
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">536145365935-1is1sdqj3b32s2vtrpm247eik431m4ft.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://easyenglish-98fde.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">536145365935</string>
+    <string name="google_api_key" translatable="false">AIzaSyDp1ceqKPRIV1kk5Je9hRy6YZ1Jgbq_kso</string>
+    <string name="google_app_id" translatable="false">1:536145365935:android:9ccd77d9d5c4015402bd5a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDp1ceqKPRIV1kk5Je9hRy6YZ1Jgbq_kso</string>
+    <string name="google_storage_bucket" translatable="false">easyenglish-98fde.appspot.com</string>
+    <string name="project_id" translatable="false">easyenglish-98fde</string>
+</resources>
